@@ -1,0 +1,22 @@
+@import"colores";
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+h1{
+    background-color:$relleno;
+    color:$titulo;
+    text-align: center;
+    padding: 10px;
+}
+.articulo{
+    background-color:$relleno;
+    padding: 20px;
+    .articulo__titulo{
+        padding: 10px;
+    }
+}
+p,h3{
+    text-align: center;
+}

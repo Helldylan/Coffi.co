@@ -1,0 +1,21 @@
+$fondo:#0f0704;
+$relleno:#EEDFBB;
+$texto:#3B3B3B;
+$titulo:#ef8354;
+
+
+
+body{
+    color:$texto;
+    background-color:$fondo;
+}
+.linkColor{
+    color:$relleno;
+    :hover{
+        color:$texto;
+        background-color: $relleno;
+    }
+}
+.locales__container,.nosotros__container,.productos__container{
+    background-color: $relleno;
+}
